@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ckf-hd-aFB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dAf-oi-rbo">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
@@ -8,24 +8,128 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 1-->
+        <!--Alım Satım-->
         <scene sceneID="XSg-tp-EOd">
             <objects>
-                <viewController id="ckf-hd-aFB" customClass="ViewController" customModule="TechCareer_Binance" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ckf-hd-aFB" customClass="HomePage" customModule="TechCareer_Binance" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U3m-CE-rG9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon1" translatesAutoresizingMaskIntoConstraints="NO" id="cpN-GA-utx">
+                                <rect key="frame" x="16" y="61" width="22" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="3kv-4X-Ear"/>
+                                    <constraint firstAttribute="width" constant="22" id="vam-mJ-hmU"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="nbD-0j-YhY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cpN-GA-utx" firstAttribute="top" secondItem="nbD-0j-YhY" secondAttribute="top" constant="13" id="D1J-HF-ceQ"/>
+                            <constraint firstItem="cpN-GA-utx" firstAttribute="leading" secondItem="nbD-0j-YhY" secondAttribute="leading" constant="16" id="ioC-zq-tOR"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="RcQ-D2-dOZ"/>
+                    <tabBarItem key="tabBarItem" title="Alım Satım" image="icon8" selectedImage="icon8" id="RcQ-D2-dOZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xNv-4P-1m6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="810" y="-611"/>
+            <point key="canvasLocation" x="2464" y="369"/>
+        </scene>
+        <!--Piyasalar-->
+        <scene sceneID="lyZ-8c-mOa">
+            <objects>
+                <viewController id="1IQ-3j-RtE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UJF-bo-Suo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="p73-2y-tb1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Piyasalar" image="icon7" selectedImage="icon7" id="iqa-9U-eZh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nVV-D1-HA7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2432" y="-419"/>
+        </scene>
+        <!--Cüzdan-->
+        <scene sceneID="fKx-1f-SSB">
+            <objects>
+                <viewController id="XDF-H0-EFo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qge-uy-7uN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="lyk-1s-uuc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Cüzdan" image="wallet.pass" catalog="system" selectedImage="wallet.pass" id="9uY-Fl-KWF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gX4-Go-uFE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2465" y="1702"/>
+        </scene>
+        <!--Vadeli işlemler-->
+        <scene sceneID="g6T-jM-Z8O">
+            <objects>
+                <viewController id="UOb-cR-Loj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Ub-zZ-BzW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="eMo-CN-0Nw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Vadeli işlemler" image="icon9" selectedImage="icon9" id="Lbb-sa-CIF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ChT-AE-9CI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2465" y="1043"/>
+        </scene>
+        <!--Ana Sayfa-->
+        <scene sceneID="TTr-gf-FrK">
+            <objects>
+                <viewController id="1nI-ZA-uKF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="udU-Ks-i9g">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="jWF-ij-2Vl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Ana Sayfa" image="house.fill" catalog="system" selectedImage="house.fill" id="IPc-R5-M3R"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DdZ-kl-mZg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2412" y="-1379"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Nge-AG-oWf">
+            <objects>
+                <tabBarController id="dAf-oi-rbo" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7dT-w9-Ldi">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="1nI-ZA-uKF" kind="relationship" relationship="viewControllers" id="YC6-Uk-wpv"/>
+                        <segue destination="1IQ-3j-RtE" kind="relationship" relationship="viewControllers" id="GL7-ay-wRM"/>
+                        <segue destination="ckf-hd-aFB" kind="relationship" relationship="viewControllers" id="S2m-3K-JGq"/>
+                        <segue destination="UOb-cR-Loj" kind="relationship" relationship="viewControllers" id="OXp-Ad-MJB"/>
+                        <segue destination="XDF-H0-EFo" kind="relationship" relationship="viewControllers" id="N9c-t2-zhj"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G1G-LN-yBA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1576" y="-419"/>
         </scene>
     </scenes>
     <resources>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
+        <image name="icon1" width="36" height="36"/>
+        <image name="icon7" width="20" height="19"/>
+        <image name="icon8" width="19" height="20"/>
+        <image name="icon9" width="19" height="19"/>
+        <image name="wallet.pass" catalog="system" width="115" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

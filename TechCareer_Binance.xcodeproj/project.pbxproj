@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		D4A620E72AC8D1B300F6EEFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A620E62AC8D1B300F6EEFB /* AppDelegate.swift */; };
 		D4A620E92AC8D1B300F6EEFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A620E82AC8D1B300F6EEFB /* SceneDelegate.swift */; };
-		D4A620EB2AC8D1B300F6EEFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A620EA2AC8D1B300F6EEFB /* ViewController.swift */; };
+		D4A620EB2AC8D1B300F6EEFB /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A620EA2AC8D1B300F6EEFB /* HomePage.swift */; };
 		D4A620EE2AC8D1B300F6EEFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A620EC2AC8D1B300F6EEFB /* Main.storyboard */; };
 		D4A620F02AC8D1B400F6EEFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4A620EF2AC8D1B400F6EEFB /* Assets.xcassets */; };
 		D4A620F32AC8D1B400F6EEFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A620F12AC8D1B400F6EEFB /* LaunchScreen.storyboard */; };
+		D4A620FB2AC8D48B00F6EEFB /* PiyasalarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A620FA2AC8D48B00F6EEFB /* PiyasalarVC.swift */; };
+		D4A620FD2AC8D49A00F6EEFB /* AlimSatimVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A620FC2AC8D49A00F6EEFB /* AlimSatimVc.swift */; };
+		D4A620FF2AC8D4A800F6EEFB /* VadeliVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A620FE2AC8D4A800F6EEFB /* VadeliVC.swift */; };
+		D4A621012AC8D4B500F6EEFB /* CuzdanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A621002AC8D4B500F6EEFB /* CuzdanVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D4A620E32AC8D1B300F6EEFB /* TechCareer_Binance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechCareer_Binance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4A620E62AC8D1B300F6EEFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4A620E82AC8D1B300F6EEFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D4A620EA2AC8D1B300F6EEFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4A620EA2AC8D1B300F6EEFB /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		D4A620ED2AC8D1B300F6EEFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4A620EF2AC8D1B400F6EEFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4A620F22AC8D1B400F6EEFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4A620F42AC8D1B400F6EEFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4A620FA2AC8D48B00F6EEFB /* PiyasalarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiyasalarVC.swift; sourceTree = "<group>"; };
+		D4A620FC2AC8D49A00F6EEFB /* AlimSatimVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlimSatimVc.swift; sourceTree = "<group>"; };
+		D4A620FE2AC8D4A800F6EEFB /* VadeliVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VadeliVC.swift; sourceTree = "<group>"; };
+		D4A621002AC8D4B500F6EEFB /* CuzdanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuzdanVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,51 @@
 		D4A620E52AC8D1B300F6EEFB /* TechCareer_Binance */ = {
 			isa = PBXGroup;
 			children = (
-				D4A620E62AC8D1B300F6EEFB /* AppDelegate.swift */,
-				D4A620E82AC8D1B300F6EEFB /* SceneDelegate.swift */,
-				D4A620EA2AC8D1B300F6EEFB /* ViewController.swift */,
+				D4A621052AC8D60900F6EEFB /* Views */,
+				D4A621042AC8D60000F6EEFB /* Resource */,
 				D4A620EC2AC8D1B300F6EEFB /* Main.storyboard */,
-				D4A620EF2AC8D1B400F6EEFB /* Assets.xcassets */,
-				D4A620F12AC8D1B400F6EEFB /* LaunchScreen.storyboard */,
 				D4A620F42AC8D1B400F6EEFB /* Info.plist */,
 			);
 			path = TechCareer_Binance;
+			sourceTree = "<group>";
+		};
+		D4A621042AC8D60000F6EEFB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D4A620E62AC8D1B300F6EEFB /* AppDelegate.swift */,
+				D4A620E82AC8D1B300F6EEFB /* SceneDelegate.swift */,
+				D4A620EF2AC8D1B400F6EEFB /* Assets.xcassets */,
+				D4A620F12AC8D1B400F6EEFB /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D4A621052AC8D60900F6EEFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D4A621072AC8D62400F6EEFB /* Cells */,
+				D4A621062AC8D61A00F6EEFB /* ViewControllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D4A621062AC8D61A00F6EEFB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4A620EA2AC8D1B300F6EEFB /* HomePage.swift */,
+				D4A620FA2AC8D48B00F6EEFB /* PiyasalarVC.swift */,
+				D4A620FC2AC8D49A00F6EEFB /* AlimSatimVc.swift */,
+				D4A620FE2AC8D4A800F6EEFB /* VadeliVC.swift */,
+				D4A621002AC8D4B500F6EEFB /* CuzdanVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D4A621072AC8D62400F6EEFB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +182,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4A620EB2AC8D1B300F6EEFB /* ViewController.swift in Sources */,
+				D4A620FD2AC8D49A00F6EEFB /* AlimSatimVc.swift in Sources */,
+				D4A620EB2AC8D1B300F6EEFB /* HomePage.swift in Sources */,
 				D4A620E72AC8D1B300F6EEFB /* AppDelegate.swift in Sources */,
 				D4A620E92AC8D1B300F6EEFB /* SceneDelegate.swift in Sources */,
+				D4A620FB2AC8D48B00F6EEFB /* PiyasalarVC.swift in Sources */,
+				D4A621012AC8D4B500F6EEFB /* CuzdanVC.swift in Sources */,
+				D4A620FF2AC8D4A800F6EEFB /* VadeliVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
