@@ -11,7 +11,7 @@
         <!--Alım Satım-->
         <scene sceneID="XSg-tp-EOd">
             <objects>
-                <viewController id="ckf-hd-aFB" customClass="HomePage" customModule="TechCareer_Binance" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ckf-hd-aFB" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U3m-CE-rG9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -88,7 +88,7 @@
         <!--Ana Sayfa-->
         <scene sceneID="TTr-gf-FrK">
             <objects>
-                <viewController id="1nI-ZA-uKF" sceneMemberID="viewController">
+                <viewController id="1nI-ZA-uKF" customClass="HomePage" customModule="TechCareer_Binance" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="udU-Ks-i9g">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -526,6 +526,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Ana Sayfa" image="house.fill" catalog="system" selectedImage="house.fill" id="IPc-R5-M3R"/>
+                    <connections>
+                        <outlet property="tableView" destination="Pfe-Dg-hml" id="FMp-40-oEy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DdZ-kl-mZg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

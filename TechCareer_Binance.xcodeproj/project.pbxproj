@@ -17,6 +17,8 @@
 		D4A620FD2AC8D49A00F6EEFB /* AlimSatimVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A620FC2AC8D49A00F6EEFB /* AlimSatimVc.swift */; };
 		D4A620FF2AC8D4A800F6EEFB /* VadeliVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A620FE2AC8D4A800F6EEFB /* VadeliVC.swift */; };
 		D4A621012AC8D4B500F6EEFB /* CuzdanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A621002AC8D4B500F6EEFB /* CuzdanVC.swift */; };
+		D4A621092AC9581700F6EEFB /* CoinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A621082AC9581700F6EEFB /* CoinCell.swift */; };
+		D4A6210B2AC9596600F6EEFB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A6210A2AC9596600F6EEFB /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		D4A620FC2AC8D49A00F6EEFB /* AlimSatimVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlimSatimVc.swift; sourceTree = "<group>"; };
 		D4A620FE2AC8D4A800F6EEFB /* VadeliVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VadeliVC.swift; sourceTree = "<group>"; };
 		D4A621002AC8D4B500F6EEFB /* CuzdanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuzdanVC.swift; sourceTree = "<group>"; };
+		D4A621082AC9581700F6EEFB /* CoinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCell.swift; sourceTree = "<group>"; };
+		D4A6210A2AC9596600F6EEFB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 				D4A620E82AC8D1B300F6EEFB /* SceneDelegate.swift */,
 				D4A620EF2AC8D1B400F6EEFB /* Assets.xcassets */,
 				D4A620F12AC8D1B400F6EEFB /* LaunchScreen.storyboard */,
+				D4A6210A2AC9596600F6EEFB /* Extensions.swift */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -107,6 +112,7 @@
 		D4A621072AC8D62400F6EEFB /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				D4A621082AC9581700F6EEFB /* CoinCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -183,7 +189,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4A620FD2AC8D49A00F6EEFB /* AlimSatimVc.swift in Sources */,
+				D4A6210B2AC9596600F6EEFB /* Extensions.swift in Sources */,
 				D4A620EB2AC8D1B300F6EEFB /* HomePage.swift in Sources */,
+				D4A621092AC9581700F6EEFB /* CoinCell.swift in Sources */,
 				D4A620E72AC8D1B300F6EEFB /* AppDelegate.swift in Sources */,
 				D4A620E92AC8D1B300F6EEFB /* SceneDelegate.swift in Sources */,
 				D4A620FB2AC8D48B00F6EEFB /* PiyasalarVC.swift in Sources */,
