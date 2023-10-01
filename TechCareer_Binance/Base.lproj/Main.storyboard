@@ -528,6 +528,7 @@
                     <tabBarItem key="tabBarItem" title="Ana Sayfa" image="house.fill" catalog="system" selectedImage="house.fill" id="IPc-R5-M3R"/>
                     <connections>
                         <outlet property="tableView" destination="Pfe-Dg-hml" id="FMp-40-oEy"/>
+                        <outlet property="yatirmaButton" destination="NAi-pf-oe3" id="ZHP-05-ltA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DdZ-kl-mZg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

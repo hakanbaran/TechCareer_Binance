@@ -19,6 +19,9 @@ class HomePage: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
+    
+    @IBOutlet weak var yatirmaButton: UIButton!
+    
     var coinArray = [Coin]()
     
     
@@ -27,6 +30,7 @@ class HomePage: UIViewController {
         
         tableView.delegate = self
         tableView.dataSource = self
+        yatirmaButton.layer.cornerRadius = 5
         
         tableView.register(CoinCell.self, forCellReuseIdentifier: CoinCell.identifier)
         tableView.separatorStyle = .none
